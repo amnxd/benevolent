@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benevolent - Software, well-meant.</title>
+  <meta name="description" content="Benevolent is a privacy-first software company. We build tools that genuinely want good things for the people who use them.">
+  <meta property="og:title" content="Benevolent">
+  <meta property="og:description" content="Software, well-meant.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://benevolent.co.in">
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/favicon-32.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo" aria-label="Benevolent home">
+      <svg class="nav-mark" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path fill-rule="evenodd" fill="currentColor" d="M 58 40 L 80 40 C 140 40, 172 62, 172 88 C 172 114, 140 124, 80 124 C 140 124, 172 146, 172 172 C 172 198, 140 208, 80 208 L 58 208 Z M 80 64 C 124 64, 150 74, 150 88 C 150 102, 124 112, 80 112 Z M 80 148 C 124 148, 150 158, 150 172 C 150 186, 124 196, 80 196 Z"/>
+      </svg>
+      <span class="nav-name">Benevolent</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#convictions">Conviction</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ─── HERO ─── -->
+    <section class="hero" id="hero" aria-label="Hero">
+      <div class="hero-inner">
+        <div class="hero-top fade-up">
+          <span class="mono-label">Est. 2026 · India</span>
+        </div>
+
+        <div class="hero-center">
+          <svg class="hero-mark fade-up delay-1" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path fill-rule="evenodd" fill="currentColor" d="M 58 40 L 80 40 C 140 40, 172 62, 172 88 C 172 114, 140 124, 80 124 C 140 124, 172 146, 172 172 C 172 198, 140 208, 80 208 L 58 208 Z M 80 64 C 124 64, 150 74, 150 88 C 150 102, 124 112, 80 112 Z M 80 148 C 124 148, 150 158, 150 172 C 150 186, 124 196, 80 196 Z"/>
+          </svg>
+
+          <div class="hero-wordmark fade-up delay-2">
+            <div class="hero-letters" aria-label="Benevolent">
+              <span>B</span><span>E</span><span>N</span><span>E</span><span>V</span><span>O</span><span>L</span><span>E</span><span>N</span><span>T</span>
+            </div>
+          </div>
+
+          <h1 class="hero-tagline fade-up delay-3">
+            software, <br>
+             well-meant.
+          </h1>
+
+          <div class="hero-rule fade-up delay-4" aria-hidden="true"></div>
+        </div>
+
+        <div class="hero-bottom fade-up delay-4">
+          <span class="mono-label">Privacy-first software company</span>
+          <div class="scroll-hint" aria-hidden="true">
+            <div class="scroll-line"><div class="scroll-dot"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── DIVIDER ─── -->
+    <div class="section-divider divider-dark" aria-hidden="true">
+      <svg viewBox="0 0 800 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M 100 24 Q 400 4 700 24" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M 100 24 Q 400 44 700 24" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </div>
+
+    <!-- ─── ABOUT ─── -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-etymology reveal">
+            <div class="etymology-word">bene</div>
+            <div class="etymology-plus" aria-hidden="true">+</div>
+            <div class="etymology-word">volens</div>
+            <div class="etymology-equals" aria-label="equals">
+              <span aria-hidden="true">—</span>
+              <em>"well-wishing"</em>
+            </div>
+          </div>
+
+          <div class="about-text reveal delay-1">
+            <span class="mono-label section-label">About</span>
+            <h2 id="about-heading" class="about-heading">
+              Technology<br>that doesn't betray you.
+            </h2>
+            <p>Benevolent is an ecosystem of networks and tools built entirely on our own encrypted infrastructure. The primary function of every product we develop is to provide utility while keeping data fundamentally private.</p>
+            <p>We believe a secure digital life should be a standard, not a feature. Our system is built to process and protect information without exposing it, ensuring that individuals retain absolute control over their digital presence.</p>
+            <p>Every piece of the ecosystem is a quiet, reliable tool built for people to use with complete peace of mind.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── DIVIDER ─── -->
+    <div class="section-divider divider-light" aria-hidden="true">
+      <svg viewBox="0 0 800 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M 100 24 Q 400 4 700 24" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M 100 24 Q 400 44 700 24" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </div>
+
+    <!-- ─── CONVICTIONS ─── -->
+    <section class="convictions" id="convictions" aria-labelledby="convictions-heading">
+      <div class="container">
+        <span class="mono-label section-label reveal">What we believe</span>
+        <h2 id="convictions-heading" class="sr-only">Our convictions</h2>
+
+        <div class="convictions-grid">
+          <article class="conviction reveal delay-1">
+            <div class="conviction-mark" aria-hidden="true">◆</div>
+            <h3>Privacy by<br>architecture</h3>
+            <p>The safest data is the data we never collect. Our products store personal information on the user's device by default. The server sees only what a shared experience requires — nothing more.</p>
+          </article>
+
+          <div class="conviction-rule" aria-hidden="true"></div>
+
+          <article class="conviction reveal delay-2">
+            <div class="conviction-mark" aria-hidden="true">◆</div>
+            <h3>Local-first,<br>always</h3>
+            <p>The app must work without a network. Connectivity is an enhancement, not a dependency. Your books, sessions, and notes belong to you — not to our infrastructure or our uptime.</p>
+          </article>
+
+          <div class="conviction-rule" aria-hidden="true"></div>
+
+          <article class="conviction reveal delay-3">
+            <div class="conviction-mark" aria-hidden="true">◆</div>
+            <h3>Focus over<br>engagement</h3>
+            <p>We do not build to maximise time-in-app. No infinite scrolls. No dopamine triggers. No growth hacks that treat users as a resource to be extracted. Good software respects attention.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── DIVIDER ─── -->
+    <div class="section-divider divider-dark" aria-hidden="true">
+      <svg viewBox="0 0 800 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M 100 24 Q 400 4 700 24" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M 100 24 Q 400 44 700 24" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </div>
+
+    <!-- ─── PRODUCTS ─── -->
+    <section class="products" id="products" aria-labelledby="products-heading">
+      <div class="container">
+        <span class="mono-label section-label reveal">What we're building</span>
+        <h2 id="products-heading" class="products-heading reveal delay-1">Two things.<br>Both matter.</h2>
+
+        <div class="products-grid">
+
+          <!-- Velith card -->
+          <article class="product-card product-velith reveal delay-2">
+            <div class="product-card-inner">
+              <div class="product-mark-wrap">
+                <svg class="product-mark velith-mark" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M 120 38 C 102 62, 102 92, 110 100 L 120 105 L 130 100 C 138 92, 138 62, 120 38 Z" fill="#C56A2E"/>
+                  <path d="M 65 110 L 120 205 L 175 110" fill="none" stroke="currentColor" stroke-width="22" stroke-linejoin="miter" stroke-miterlimit="8"/>
+                </svg>
+              </div>
+
+              <div class="product-info">
+                <div class="product-meta">
+                  <span class="mono-label">Product 01</span>
+                  <span class="product-status">Android · Coming Soon</span>
+                </div>
+                <h3 class="product-name">Velith</h3>
+                <p class="product-desc">A place to study deeply and read privately. Live study rooms that show you who's working, without tracking what you're doing. An on-device library that keeps your reading life yours — books, highlights, and notes never leave your device.</p>
+                <ul class="product-features" role="list">
+                  <li>Live study rooms with real-time presence</li>
+                  <li>PDF & EPUB reader with Night mode</li>
+                  <li>Attendance tracking and rankings</li>
+                  <li>Books stored on-device only</li>
+                </ul>
+                <div class="product-footer">
+                  <span class="mono-label">velith · by Benevolent</span>
+                  <div class="product-notify">
+                    <a href="mailto:hello@benevolent.co.in?subject=Notify me about Velith" class="btn-notify">Get notified</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- BEP card -->
+          <article class="product-card product-bep reveal delay-3">
+            <div class="product-card-inner">
+              <div class="product-mark-wrap">
+                <div class="bep-mark" aria-hidden="true">
+                  <div class="bep-ring bep-ring-1"></div>
+                  <div class="bep-ring bep-ring-2"></div>
+                  <div class="bep-ring bep-ring-3"></div>
+                </div>
+              </div>
+
+              <div class="product-info">
+                <div class="product-meta">
+                  <span class="mono-label">Protocol</span>
+                  <span class="product-status product-status-dev">In development</span>
+                </div>
+                <h3 class="product-name">BEP</h3>
+                <p class="product-tagline">Benevolent Encrypted Protocol</p>
+                <p class="product-desc">A decentralized, end-to-end encrypted communication protocol. Built for a world where the infrastructure that carries your messages should not be able to read them.</p>
+                <p class="product-desc">When it's ready, every Benevolent product will speak it. And anyone else can too — the protocol is open.</p>
+                <div class="product-footer">
+                  <span class="mono-label">open · E2EE · decentralized</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── DIVIDER ─── -->
+    <div class="section-divider divider-light" aria-hidden="true">
+      <svg viewBox="0 0 800 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M 100 24 Q 400 4 700 24" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M 100 24 Q 400 44 700 24" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </div>
+
+    <!-- ─── CONTACT ─── -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="contact-bg-mark" aria-hidden="true">
+        <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" fill="currentColor" d="M 58 40 L 80 40 C 140 40, 172 62, 172 88 C 172 114, 140 124, 80 124 C 140 124, 172 146, 172 172 C 172 198, 140 208, 80 208 L 58 208 Z M 80 64 C 124 64, 150 74, 150 88 C 150 102, 124 112, 80 112 Z M 80 148 C 124 148, 150 158, 150 172 C 150 186, 124 196, 80 196 Z"/>
+        </svg>
+      </div>
+
+      <div class="container contact-inner">
+        <span class="mono-label section-label reveal">Contact</span>
+        <h2 id="contact-heading" class="contact-heading reveal delay-1">
+          Let's build<br>something good.
+        </h2>
+
+        <div class="contact-links reveal delay-2">
+          <a href="mailto:hello@benevolent.co.in" class="contact-link">
+            <span class="mono-label">Email</span>
+            hello@benevolent.co.in
+          </a>
+          <a href="https://benevolent.co.in" class="contact-link" target="_blank" rel="noopener">
+            <span class="mono-label">Web</span>
+            benevolent.co.in
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <svg class="footer-mark" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill-rule="evenodd" fill="currentColor" d="M 58 40 L 80 40 C 140 40, 172 62, 172 88 C 172 114, 140 124, 80 124 C 140 124, 172 146, 172 172 C 172 198, 140 208, 80 208 L 58 208 Z M 80 64 C 124 64, 150 74, 150 88 C 150 102, 124 112, 80 112 Z M 80 148 C 124 148, 150 158, 150 172 C 150 186, 124 196, 80 196 Z"/>
+        </svg>
+        <div>
+          <div class="footer-name">Benevolent</div>
+          <div class="footer-tagline">Software, well-meant.</div>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <span>© 2026 Benevolent Co.</span>
+        <span>India.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
